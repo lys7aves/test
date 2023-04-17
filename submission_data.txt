@@ -1,18 +1,18 @@
-743694	45	세모 만들기1	seoha_sky	True	2023-04-17 14:17:25
-743693	43	네모 만들기	seoha_sky	True	2023-04-17 14:15:10
-743682	560	사과_KOI전국2015_초등부_1	Mightymyong	True	2023-04-17 11:56:46
-743681	560	사과_KOI전국2015_초등부_1	Mightymyong	False	2023-04-17 11:56:35
-743680	560	사과_KOI전국2015_초등부_1	Mightymyong	False	2023-04-17 11:49:26
-743679	2838	더했다가, 뺐다가 2	Mightymyong	True	2023-04-17 11:37:15
-743678	2838	더했다가, 뺐다가 2	Mightymyong	False	2023-04-17 11:36:26
-743677	552	행복_KOI전국본선2018_초등부_1	Mightymyong	True	2023-04-17 11:08:47
-743676	502	소수 판별	Mightymyong	True	2023-04-17 10:53:04
-743675	504	완전수 판별	Mightymyong	True	2023-04-17 10:40:08
-743674	2835	팩토리얼	Mightymyong	True	2023-04-17 10:24:39
-743673	2831	1의 개수	Mightymyong	True	2023-04-17 08:57:30
-743672	1505	A spiral walk_USACO_2011_MAR_BRONZE_3	ykim_4530	True	2023-04-17 08:52:27
-743671	1505	A spiral walk_USACO_2011_MAR_BRONZE_3	ykim_4530	False	2023-04-17 08:47:03
-743670	1505	A spiral walk_USACO_2011_MAR_BRONZE_3	ykim_4530	False	2023-04-17 08:46:16
-743669	1505	A spiral walk_USACO_2011_MAR_BRONZE_3	ykim_4530	False	2023-04-17 08:45:36
-743668	1505	A spiral walk_USACO_2011_MAR_BRONZE_3	ykim_4530	False	2023-04-17 08:27:58
-743667	2771	3의 배수의 합	Mightymyong	True	2023-04-17 07:41:04
+743694,45,세모 만들기1,seoha_sky,True,2023-04-17 14:17:25
+743693,43,네모 만들기,seoha_sky,True,2023-04-17 14:15:10
+743682,560,사과_KOI전국2015_초등부_1,Mightymyong,True,2023-04-17 11:56:46
+743681,560,사과_KOI전국2015_초등부_1,Mightymyong,False,2023-04-17 11:56:35
+743680,560,사과_KOI전국2015_초등부_1,Mightymyong,False,2023-04-17 11:49:26
+743679,2838,더했다가, 뺐다가 2,Mightymyong,True,2023-04-17 11:37:15
+743678,2838,더했다가, 뺐다가 2,Mightymyong,False,2023-04-17 11:36:26
+743677,552,행복_KOI전국본선2018_초등부_1,Mightymyong,True,2023-04-17 11:08:47
+743676,502,소수 판별,Mightymyong,True,2023-04-17 10:53:04
+743675,504,완전수 판별,Mightymyong,True,2023-04-17 10:40:08
+743674,2835,팩토리얼,Mightymyong,True,2023-04-17 10:24:39
+743673,2831,1의 개수,Mightymyong,True,2023-04-17 08:57:30
+743672,1505,A spiral walk_USACO_2011_MAR_BRONZE_3,ykim_4530,True,2023-04-17 08:52:27
+743671,1505,A spiral walk_USACO_2011_MAR_BRONZE_3,ykim_4530,False,2023-04-17 08:47:03
+743670,1505,A spiral walk_USACO_2011_MAR_BRONZE_3,ykim_4530,False,2023-04-17 08:46:16
+743669,1505,A spiral walk_USACO_2011_MAR_BRONZE_3,ykim_4530,False,2023-04-17 08:45:36
+743668,1505,A spiral walk_USACO_2011_MAR_BRONZE_3,ykim_4530,False,2023-04-17 08:27:58
+743667,2771,3의 배수의 합,Mightymyong,True,2023-04-17 07:41:04
