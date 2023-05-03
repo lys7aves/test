@@ -10,7 +10,7 @@ for root, directories, files in os.walk(dir_path):
         file_paths.append(file_path)
 
 # README.md 파일을 열어 파일 경로를 추가
-with open("README.md", "a") as f:
+with open("README.md", "") as f:
     f.write("## 파일 목록\n\n")
     for file_path in file_paths:
         f.write("- {}\n".format(file_path))
