@@ -12,22 +12,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Get file list and update time
-        id: files
+      - name: Update README
+        uses: jakejarvis/gh-actions-readme@v3.3.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          readme_path: README.md
+          sections: |
+            ## File List
+            ${{ steps.filelist.outputs.list }}
+
+      - name: Get file list
+        id: filelist
         run: |
           echo "File list" > files.txt
           find . -type f -printf "- %p %TY-%Tm-%Td %TH:%TM\n" | sed 's/\.\///' >> files.txt
-          echo "::set-output name=filelist::$(cat files.txt)"
-
-      - name: Update README
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Updated README with file list and update time"
-          #commit_options: "--author 'lys7aves <lys7aves@users.noreply.github.com>'"
-          file_pattern: 'README.md'
-          branch: main
-          token: ${{ secrets.GITHUB_TOKENN }}
-          action: replace
-          replacements: |
-            ## File List
-            ${{ steps.files.outputs.filelist }}
+          echo "::set-output name=list::$(cat files.txt)"
