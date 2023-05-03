@@ -11,7 +11,7 @@ with open('./.github/config/.ignore', 'r') as f:
 patterns = []
 for p in ignore:
     pattern = r""
-    for c in p:
+    for c in p.strip():
         if c == '*':
             pattern = pattern + r".*"
         elif c in ".^$*+?{}[]|()":  # 메타 문자
