@@ -13,6 +13,6 @@ jobs:
         id: files
         run: |
           echo "#File list" > README.md
-          find . -type f -printf "- %p[%p] %TY-%Tm-%Td %TH:%TM\n" | sed 's/\.\///' >> README.md
+          find . -type f -printf "- %p %TY-%Tm-%Td %TH:%TM\n" | sed 's/\.\///' >> README.md
           echo "::set-output name=filelist::$(cat REDME.md)"
       #- name: Update README
