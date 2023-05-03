@@ -23,7 +23,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Updated README with file list and update time"
-          commit_options: "--author 'GitHub Actions <actions@github.com>'"
+          commit_options: "--author 'lys7aves <lys7aves@gmail.com>'"
           files: README.md
           branch: main
           token: ${{ secrets.README_TEMPLATE_TOKEN }}
