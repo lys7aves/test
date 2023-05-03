@@ -2,73 +2,73 @@
 A collection of notes and solutions on various mathematical topics.
 
 ## List of notes
-- [.github](./.github) - 2023-05-03 07:39:11.620271
-- [workflows](./.github/workflows) - 2023-05-03 07:39:11.620271
-- [python-app.yml](./.github/workflows/python-app.yml) - 2023-05-03 07:39:11.620271
-- [src](./.github/src) - 2023-05-03 07:39:11.620271
-- [update-readme.py](./.github/src/update-readme.py) - 2023-05-03 07:39:11.620271
-- [submission_data.txt](./submission_data.txt) - 2023-05-03 07:39:11.620271
-- [README.md](./README.md) - 2023-05-03 07:39:11.620271
-- [files.txt](./files.txt) - 2023-05-03 07:39:11.620271
-- [.git](./.git) - 2023-05-03 07:39:11.624272
-- [logs](./.git/logs) - 2023-05-03 07:39:11.624272
-- [HEAD](./.git/logs/HEAD) - 2023-05-03 07:39:11.624272
-- [refs](./.git/logs/refs) - 2023-05-03 07:39:11.620271
-- [heads](./.git/logs/refs/heads) - 2023-05-03 07:39:11.620271
-- [main](./.git/logs/refs/heads/main) - 2023-05-03 07:39:11.620271
-- [remotes](./.git/logs/refs/remotes) - 2023-05-03 07:39:11.608271
-- [origin](./.git/logs/refs/remotes/origin) - 2023-05-03 07:39:11.608271
-- [main](./.git/logs/refs/remotes/origin/main) - 2023-05-03 07:39:11.608271
-- [HEAD](./.git/HEAD) - 2023-05-03 07:39:11.624272
-- [info](./.git/info) - 2023-05-03 07:39:11.156262
-- [exclude](./.git/info/exclude) - 2023-05-03 07:39:11.156262
-- [description](./.git/description) - 2023-05-03 07:39:11.156262
-- [index](./.git/index) - 2023-05-03 07:39:11.620271
-- [FETCH_HEAD](./.git/FETCH_HEAD) - 2023-05-03 07:39:11.608271
-- [config](./.git/config) - 2023-05-03 07:39:11.624272
-- [refs](./.git/refs) - 2023-05-03 07:39:11.608271
-- [heads](./.git/refs/heads) - 2023-05-03 07:39:11.620271
-- [main](./.git/refs/heads/main) - 2023-05-03 07:39:11.620271
-- [remotes](./.git/refs/remotes) - 2023-05-03 07:39:11.608271
-- [origin](./.git/refs/remotes/origin) - 2023-05-03 07:39:11.608271
-- [main](./.git/refs/remotes/origin/main) - 2023-05-03 07:39:11.608271
-- [tags](./.git/refs/tags) - 2023-05-03 07:39:11.160262
-- [objects](./.git/objects) - 2023-05-03 07:39:11.612271
-- [b4](./.git/objects/b4) - 2023-05-03 07:39:11.588271
-- [a95745fa1e0576531eb3a77fb0b087278f60a0](./.git/objects/b4/a95745fa1e0576531eb3a77fb0b087278f60a0) - 2023-05-03 07:39:11.588271
-- [52](./.git/objects/52) - 2023-05-03 07:39:11.588271
-- [73a2af81aa51e689f5923bbf85f000cecb4f62](./.git/objects/52/73a2af81aa51e689f5923bbf85f000cecb4f62) - 2023-05-03 07:39:11.588271
-- [info](./.git/objects/info) - 2023-05-03 07:39:11.164262
-- [89](./.git/objects/89) - 2023-05-03 07:39:11.588271
-- [e6d5e9b5cb43ec286a3c50c95b05a0f9870301](./.git/objects/89/e6d5e9b5cb43ec286a3c50c95b05a0f9870301) - 2023-05-03 07:39:11.588271
-- [72](./.git/objects/72) - 2023-05-03 07:39:11.588271
-- [ac8767cbc7f06b3b4ce7c1759e5aa9a4f9ea85](./.git/objects/72/ac8767cbc7f06b3b4ce7c1759e5aa9a4f9ea85) - 2023-05-03 07:39:11.588271
-- [53](./.git/objects/53) - 2023-05-03 07:39:11.588271
-- [86ee474b3b4ffb508417fef544c104db0ca0c8](./.git/objects/53/86ee474b3b4ffb508417fef544c104db0ca0c8) - 2023-05-03 07:39:11.588271
-- [06](./.git/objects/06) - 2023-05-03 07:39:11.588271
-- [8b3b11dbf7e61c6803d40c4b54461addc0c0f7](./.git/objects/06/8b3b11dbf7e61c6803d40c4b54461addc0c0f7) - 2023-05-03 07:39:11.588271
-- [6f](./.git/objects/6f) - 2023-05-03 07:39:11.588271
-- [980722bf56561e0839315437d4956916077867](./.git/objects/6f/980722bf56561e0839315437d4956916077867) - 2023-05-03 07:39:11.588271
-- [b1](./.git/objects/b1) - 2023-05-03 07:39:11.588271
-- [1b2f277a9ee76127d9517201e46960fb7c1b85](./.git/objects/b1/1b2f277a9ee76127d9517201e46960fb7c1b85) - 2023-05-03 07:39:11.588271
-- [a9](./.git/objects/a9) - 2023-05-03 07:39:11.588271
-- [09bc726846da96499d3b61f606305667f0fe7b](./.git/objects/a9/09bc726846da96499d3b61f606305667f0fe7b) - 2023-05-03 07:39:11.588271
-- [75](./.git/objects/75) - 2023-05-03 07:39:11.588271
-- [7ffbaef8d2045838d7b0db0ce7c404c91e708d](./.git/objects/75/7ffbaef8d2045838d7b0db0ce7c404c91e708d) - 2023-05-03 07:39:11.588271
-- [pack](./.git/objects/pack) - 2023-05-03 07:39:11.164262
-- [branches](./.git/branches) - 2023-05-03 07:39:11.156262
-- [hooks](./.git/hooks) - 2023-05-03 07:39:11.160262
-- [update.sample](./.git/hooks/update.sample) - 2023-05-03 07:39:11.160262
-- [fsmonitor-watchman.sample](./.git/hooks/fsmonitor-watchman.sample) - 2023-05-03 07:39:11.160262
-- [pre-rebase.sample](./.git/hooks/pre-rebase.sample) - 2023-05-03 07:39:11.160262
-- [pre-commit.sample](./.git/hooks/pre-commit.sample) - 2023-05-03 07:39:11.160262
-- [post-update.sample](./.git/hooks/post-update.sample) - 2023-05-03 07:39:11.160262
-- [applypatch-msg.sample](./.git/hooks/applypatch-msg.sample) - 2023-05-03 07:39:11.160262
-- [pre-merge-commit.sample](./.git/hooks/pre-merge-commit.sample) - 2023-05-03 07:39:11.160262
-- [pre-applypatch.sample](./.git/hooks/pre-applypatch.sample) - 2023-05-03 07:39:11.160262
-- [pre-receive.sample](./.git/hooks/pre-receive.sample) - 2023-05-03 07:39:11.160262
-- [prepare-commit-msg.sample](./.git/hooks/prepare-commit-msg.sample) - 2023-05-03 07:39:11.160262
-- [push-to-checkout.sample](./.git/hooks/push-to-checkout.sample) - 2023-05-03 07:39:11.160262
-- [pre-push.sample](./.git/hooks/pre-push.sample) - 2023-05-03 07:39:11.160262
-- [commit-msg.sample](./.git/hooks/commit-msg.sample) - 2023-05-03 07:39:11.160262
-- [shallow](./.git/shallow) - 2023-05-03 07:39:11.576271
+- [.github](./.github) - 2023-05-03 07:44:52.832843
+  - [workflows](./.github/workflows) - 2023-05-03 07:44:52.832843
+    - [python-app.yml](./.github/workflows/python-app.yml) - 2023-05-03 07:44:52.832843
+  - [src](./.github/src) - 2023-05-03 07:44:52.832843
+    - [update-readme.py](./.github/src/update-readme.py) - 2023-05-03 07:44:52.832843
+- [submission_data.txt](./submission_data.txt) - 2023-05-03 07:44:52.832843
+- [README.md](./README.md) - 2023-05-03 07:44:52.832843
+- [files.txt](./files.txt) - 2023-05-03 07:44:52.832843
+- [.git](./.git) - 2023-05-03 07:44:52.832843
+  - [logs](./.git/logs) - 2023-05-03 07:44:52.832843
+    - [HEAD](./.git/logs/HEAD) - 2023-05-03 07:44:52.832843
+    - [refs](./.git/logs/refs) - 2023-05-03 07:44:52.832843
+      - [heads](./.git/logs/refs/heads) - 2023-05-03 07:44:52.832843
+        - [main](./.git/logs/refs/heads/main) - 2023-05-03 07:44:52.832843
+      - [remotes](./.git/logs/refs/remotes) - 2023-05-03 07:44:52.824843
+        - [origin](./.git/logs/refs/remotes/origin) - 2023-05-03 07:44:52.824843
+          - [main](./.git/logs/refs/remotes/origin/main) - 2023-05-03 07:44:52.824843
+  - [HEAD](./.git/HEAD) - 2023-05-03 07:44:52.832843
+  - [info](./.git/info) - 2023-05-03 07:44:52.500841
+    - [exclude](./.git/info/exclude) - 2023-05-03 07:44:52.500841
+  - [description](./.git/description) - 2023-05-03 07:44:52.500841
+  - [index](./.git/index) - 2023-05-03 07:44:52.832843
+  - [FETCH_HEAD](./.git/FETCH_HEAD) - 2023-05-03 07:44:52.824843
+  - [config](./.git/config) - 2023-05-03 07:44:52.832843
+  - [refs](./.git/refs) - 2023-05-03 07:44:52.824843
+    - [heads](./.git/refs/heads) - 2023-05-03 07:44:52.832843
+      - [main](./.git/refs/heads/main) - 2023-05-03 07:44:52.832843
+    - [remotes](./.git/refs/remotes) - 2023-05-03 07:44:52.824843
+      - [origin](./.git/refs/remotes/origin) - 2023-05-03 07:44:52.824843
+        - [main](./.git/refs/remotes/origin/main) - 2023-05-03 07:44:52.824843
+    - [tags](./.git/refs/tags) - 2023-05-03 07:44:52.504841
+  - [objects](./.git/objects) - 2023-05-03 07:44:52.824843
+    - [6d](./.git/objects/6d) - 2023-05-03 07:44:52.820843
+      - [856c34f76a881a0524a432918d20d9ffc8bc57](./.git/objects/6d/856c34f76a881a0524a432918d20d9ffc8bc57) - 2023-05-03 07:44:52.820843
+    - [info](./.git/objects/info) - 2023-05-03 07:44:52.504841
+    - [72](./.git/objects/72) - 2023-05-03 07:44:52.820843
+      - [ac8767cbc7f06b3b4ce7c1759e5aa9a4f9ea85](./.git/objects/72/ac8767cbc7f06b3b4ce7c1759e5aa9a4f9ea85) - 2023-05-03 07:44:52.820843
+    - [53](./.git/objects/53) - 2023-05-03 07:44:52.820843
+      - [86ee474b3b4ffb508417fef544c104db0ca0c8](./.git/objects/53/86ee474b3b4ffb508417fef544c104db0ca0c8) - 2023-05-03 07:44:52.820843
+    - [2d](./.git/objects/2d) - 2023-05-03 07:44:52.820843
+      - [1308b1162c92532e12702888280fa8cf95995b](./.git/objects/2d/1308b1162c92532e12702888280fa8cf95995b) - 2023-05-03 07:44:52.820843
+    - [06](./.git/objects/06) - 2023-05-03 07:44:52.820843
+      - [8b3b11dbf7e61c6803d40c4b54461addc0c0f7](./.git/objects/06/8b3b11dbf7e61c6803d40c4b54461addc0c0f7) - 2023-05-03 07:44:52.820843
+    - [28](./.git/objects/28) - 2023-05-03 07:44:52.820843
+      - [79c24979b315866fa27733e08d48e53410652c](./.git/objects/28/79c24979b315866fa27733e08d48e53410652c) - 2023-05-03 07:44:52.820843
+    - [e6](./.git/objects/e6) - 2023-05-03 07:44:52.820843
+      - [d96ce1ad271c8ecdb6011af2cfd35eff70a89e](./.git/objects/e6/d96ce1ad271c8ecdb6011af2cfd35eff70a89e) - 2023-05-03 07:44:52.820843
+    - [61](./.git/objects/61) - 2023-05-03 07:44:52.820843
+      - [f9cafa9d20501b08565d55b25d3a67fa6b979c](./.git/objects/61/f9cafa9d20501b08565d55b25d3a67fa6b979c) - 2023-05-03 07:44:52.820843
+    - [75](./.git/objects/75) - 2023-05-03 07:44:52.820843
+      - [7ffbaef8d2045838d7b0db0ce7c404c91e708d](./.git/objects/75/7ffbaef8d2045838d7b0db0ce7c404c91e708d) - 2023-05-03 07:44:52.820843
+    - [db](./.git/objects/db) - 2023-05-03 07:44:52.820843
+      - [aec79ef09d71fabe222700b5dc2a690c674c45](./.git/objects/db/aec79ef09d71fabe222700b5dc2a690c674c45) - 2023-05-03 07:44:52.820843
+    - [pack](./.git/objects/pack) - 2023-05-03 07:44:52.504841
+  - [branches](./.git/branches) - 2023-05-03 07:44:52.500841
+  - [hooks](./.git/hooks) - 2023-05-03 07:44:52.504841
+    - [update.sample](./.git/hooks/update.sample) - 2023-05-03 07:44:52.500841
+    - [fsmonitor-watchman.sample](./.git/hooks/fsmonitor-watchman.sample) - 2023-05-03 07:44:52.500841
+    - [pre-rebase.sample](./.git/hooks/pre-rebase.sample) - 2023-05-03 07:44:52.500841
+    - [pre-commit.sample](./.git/hooks/pre-commit.sample) - 2023-05-03 07:44:52.500841
+    - [post-update.sample](./.git/hooks/post-update.sample) - 2023-05-03 07:44:52.500841
+    - [applypatch-msg.sample](./.git/hooks/applypatch-msg.sample) - 2023-05-03 07:44:52.504841
+    - [pre-merge-commit.sample](./.git/hooks/pre-merge-commit.sample) - 2023-05-03 07:44:52.504841
+    - [pre-applypatch.sample](./.git/hooks/pre-applypatch.sample) - 2023-05-03 07:44:52.504841
+    - [pre-receive.sample](./.git/hooks/pre-receive.sample) - 2023-05-03 07:44:52.504841
+    - [prepare-commit-msg.sample](./.git/hooks/prepare-commit-msg.sample) - 2023-05-03 07:44:52.504841
+    - [push-to-checkout.sample](./.git/hooks/push-to-checkout.sample) - 2023-05-03 07:44:52.504841
+    - [pre-push.sample](./.git/hooks/pre-push.sample) - 2023-05-03 07:44:52.504841
+    - [commit-msg.sample](./.git/hooks/commit-msg.sample) - 2023-05-03 07:44:52.504841
+  - [shallow](./.git/shallow) - 2023-05-03 07:44:52.804843
