@@ -14,7 +14,7 @@ patterns = [p.strip() for p in patterns]
 # ignore 패턴과 일치하는지 확인하는 함수
 def check_ignore_pattern(item_path):
     for pattern in patterns:
-        if re.match(pattern, filepath):
+        if re.match(pattern, item_path):
             return True
     return False
 
