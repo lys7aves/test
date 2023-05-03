@@ -24,7 +24,7 @@ for p in ignore:
 # ignore 패턴과 일치하는지 확인하는 함수
 def check_ignore_pattern(item_path):
     for pattern in patterns:
-        if re.match(pattern, item_path):
+        if re.match(pattern, item_path[2:]):  # 항상 붙는 "./" 제거
             return True
     return False
 
