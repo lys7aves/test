@@ -1,16 +1,28 @@
 import os
+from datetime import datetime
 
 dir_path = "."
-file_paths = []
 
-# 디렉토리와 그 하위 디렉토리에서 파일 경로를 추출하여 file_paths 리스트에 추가
-for root, directories, files in os.walk(dir_path):
-    for filename in files:
-        file_path = os.path.join(root, filename)
-        file_paths.append(file_path)
+def find_target(path):
+    for item in os.listdir(path):
+        item_path = os.path.join(path, item)
+        
+        if True: # 특정 조건:
+            # 수정 날짜 가져오기
+            mtime = datetime.fromtimestamp(os.stat(item_path).st_mtime)
+            target_list.append([item, item_path, mtime])
+            
+        if os.path.isdir(item_path):
+            find_target(item_path)
+
+target_list = []
+find_target(dir_path)
 
 # README.md 파일을 열어 파일 경로를 추가
 with open("README.md", "w") as f:
-    f.write("## 파일 목록\n\n")
-    for file_path in file_paths:
-        f.write("- {}\n".format(file_path))
+    f.write("# mathematics\n")
+    f.write("A collection of notes and solutions on various mathematical topics.\n\n")
+
+    f.write("## List of notes\n")
+    for target in target_list:
+        f.write("- [{}]({}) - {}\n".format(target))
