@@ -1,29 +1,29 @@
 name: Update README with file list
-
 on:
   push:
     branches:
       - main # 또는 원하는 브랜치 이름
-
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
-      - name: Update README
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          readme_path: README.md
-          sections: |
-            ## File List
-            ${{ steps.filelist.outputs.list }}
-
-      - name: Get file list
-        id: filelist
+      - name: Get file list and update time
+        id: files
         run: |
-          echo "File list" > files.txt
-          find . -type f -printf "- %p %TY-%Tm-%Td %TH:%TM\n" | sed 's/\.\///' >> files.txt
-          echo "::set-output name=list::$(cat files.txt)"
+          echo "File list" > README.md
+          find . -type f -printf "- %p %TY-%Tm-%Td %TH:%TM\n" | sed 's/\.\///' >> README.md
+          echo "::set-output name=filelist::$(cat REDME.md)"
+      - name: Update README
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Updated README with file list and update time"
+          #commit_options: "--author 'lys7aves <lys7aves@users.noreply.github.com>'"
+          file_pattern: 'README.md'
+          branch: main
+          token: ${{ secrets.GITHUB_TOKENN }}
+          action: replace
+          replacements: |
+            ## File List
+            ${{ steps.files.outputs.filelist }}
