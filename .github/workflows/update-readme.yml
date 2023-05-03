@@ -24,7 +24,7 @@ jobs:
         with:
           commit_message: "Updated README with file list and update time"
           #commit_options: "--author 'lys7aves <lys7aves@users.noreply.github.com>'"
-          files: README.md
+          file_pattern: 'README.md'
           branch: main
           token: ${{ secrets.GITHUB_TOKENN }}
           action: replace
