@@ -25,4 +25,4 @@ with open("README.md", "w") as f:
 
     f.write("## List of notes\n")
     for target in target_list:
-        f.write("- [{}]({}) - {}\n".format(target))
+        f.write("- [{}]({}) - {}\n".format(target[0], target[1], target[2]))
