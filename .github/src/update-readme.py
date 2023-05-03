@@ -1,6 +1,6 @@
 import os
 
-dir_path = "/"
+dir_path = "."
 file_paths = []
 
 # 디렉토리와 그 하위 디렉토리에서 파일 경로를 추출하여 file_paths 리스트에 추가
