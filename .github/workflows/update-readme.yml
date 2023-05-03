@@ -12,18 +12,7 @@ jobs:
       - name: Get file list and update time
         id: files
         run: |
-          echo "File list" > README.md
-          find . -type f -printf "- %p %TY-%Tm-%Td %TH:%TM\n" | sed 's/\.\///' >> README.md
+          echo "#File list" > README.md
+          find . -type f -printf "- %p[%p] %TY-%Tm-%Td %TH:%TM\n" | sed 's/\.\///' >> README.md
           echo "::set-output name=filelist::$(cat REDME.md)"
-      - name: Update README
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Updated README with file list and update time"
-          #commit_options: "--author 'lys7aves <lys7aves@users.noreply.github.com>'"
-          file_pattern: 'README.md'
-          branch: main
-          token: ${{ secrets.GITHUB_TOKENN }}
-          action: replace
-          replacements: |
-            ## File List
-            ${{ steps.files.outputs.filelist }}
+      #- name: Update README
