@@ -6,9 +6,9 @@ import re
 dir_path = "."
 
 # ignore 파일을 읽어서 패턴 목록을 리스트로 저장
-#with open('./.github/config/.ignore', 'r') as f:
-#    ignore = f.readlines()
-ignore = []
+with open('./.github/config/.ignore', 'r') as f:
+    ignore = f.readlines()
+#ignore = []
 patterns = []
 for p in ignore:
     pattern = r""
@@ -41,6 +41,7 @@ def find_target(path, level):
             
         # 파일(혹은 디렉토리) 리스트에 추가하기
         mtime = datetime.fromtimestamp(os.stat(item_path).st_mtime)  # 수정 날짜 가져오기
+        print(mtime)
         mtime = mtime.strftime('%a %b %d %Y')  # 날짜 형식 변환
         file_list.append([item, item_path, mtime, []])
         print(file_list[-1])
