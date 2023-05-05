@@ -31,7 +31,7 @@ jobs:
         
     - name: Find file list
       run: |
-        find . -type f -mtime >> file_list.txt
+        find . -type f >> file_list.txt
     
     - name: Exectue python
       run: |
