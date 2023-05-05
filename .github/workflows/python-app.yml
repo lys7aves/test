@@ -31,7 +31,7 @@ jobs:
         
     - name: Find file list
       run: |
-        find . -type f >> file_list.txt
+        find . -type f -printf "%p %TY-%Tm-%Td %TH:%TM:%TS %Tz\n" >> file_list.txt
     
     - name: Exectue python
       run: |
