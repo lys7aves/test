@@ -1,21 +1,10 @@
-# mathematics
-A collection of notes and solutions on various mathematical topics.
+# Commit Timestamps
 
----
-
-### 3 most recent study
-- [submission_data.txt]("./submission_data.txt") - Fri May 05 2023
-- [file_list.txt]("./file_list.txt") - Fri May 05 2023
-- [README.md]("./README.md") - Fri May 05 2023
-
-### Categories
-- [submission_data.txt](#submission_data.txt)
-- [file_list.txt](#file_list.txt)
-- [README.md](#README.md)
-
-### [submission_data.txt](#submission_data.txt)
-
-### [file_list.txt](#file_list.txt)
-
-### [README.md](#README.md)
-
+- 2023-05-18 16:53:10 +0900 af7c02d Create timestamp.yml
+.github/config/.ignore
+.github/src/update-readme.py
+.github/workflows/python-app.yml
+.github/workflows/timestamp.yml
+README.md
+file_list.txt
+submission_data.txt
