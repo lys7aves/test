@@ -15,4 +15,5 @@ jobs:
     - name: Get commit timestamp
       run: |
         timestamp=$(git log -1 --pretty=format:%cI)
-        echo "Commit timestamp: $timestamp"
+        export COMMIT_TIME=$(git show -s --format=%ci dd28288f)
+        echo "Commit timestamp: $COMMIT_TIME"
