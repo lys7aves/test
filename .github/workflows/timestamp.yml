@@ -17,7 +17,7 @@ jobs:
         echo "# Commit Timestamps" > README.md
         timestamp=$(git log -1 --pretty=format:%cI)
         export COMMIT_TIME=$(git show -s --format=%ci dd28288f)
-        echo "Commit timestamp: $COMMIT_TIME" >> README.md
+        echo "Commit timestamp: $timestamp" >> README.md
 
     - name: Commit and Push Changes
       run: |
