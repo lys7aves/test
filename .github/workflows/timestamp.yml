@@ -12,11 +12,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
+        
       - name: Generate Commit Timestamps
         run: |
-          echo "# Commit Timestamps" > README.md
-          git log --format="- %ai %h %s" --name-only | sort | uniq >> README.md
+          chmod +x update_timestamps.sh
+          ./update_timestamps.sh
+
 
       - name: Commit and Push Changes
         run: |
