@@ -1,0 +1,27 @@
+name: Update Commit Timestamps
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-timestamps:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Generate Commit Timestamps
+        run: |
+          echo "# Commit Timestamps" > README.md
+          git log --format="- %ai %h %s" --name-only | sort | uniq >> README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update commit timestamps" || true
+          git push
