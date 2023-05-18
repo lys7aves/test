@@ -8,21 +8,11 @@ on:
 jobs:
   update-timestamps:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        
-      - name: Generate Commit Timestamps
-        run: |
-          chmod +x update_timestamps.sh
-          ./update_timestamps.sh
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-
-      - name: Commit and Push Changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git commit -m "Update commit timestamps" || true
-          git push
+    - name: Get commit timestamp
+      run: |
+        timestamp=$(git log -1 --pretty=format:%cI)
+        echo "Commit timestamp: $timestamp"
